@@ -129,15 +129,37 @@ button {
     color: white;
 }
 .container_supplements {
-	background-color: pink;
+	background-color: brown;
 	width: 970px;
 	height: 300px;	
+    padding-top: 5px;
+    box-sizing: border-box;
+    margin-left: ;
+}
+.supplement_pane {
+    box-sizing: border-box;
+    width: 35%;
+    height: 90%;
+    background-color: white;
+    display: inline-block;
+    margin-left: 146px;
+}
+.supplement_pane2 {
+    box-sizing: border-box;
+    width: 35%;
+    height: 90%;
+    background-color: white;
+    display: inline-block;
 }
 .footer {
 	background-color: green;
 	width: 970px;
 	height: 150px;
 }
+
+
+/*touch up styles*/
+
 .text_align {
 	text-align: center;
 }
@@ -166,6 +188,9 @@ button {
 }
 .bg_color_black {
 	background-color: black;
+}
+.bg_color_white {
+    background-color: white;
 }
 .decor_none {
     text-decoration:none
