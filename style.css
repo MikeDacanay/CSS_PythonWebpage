@@ -6,24 +6,10 @@
 	width: 970px;
 	height: auto;
 	box-sizing: border-box;
-	background-color: blue;
+	/*background-color: purple;*/
 }
-.text_align {
-	text-align: center;
-}
-.border_radius {
-	border-radius: 9px
-}
-.white_font_color {
-	font-color: white;
-	color: white;
-}
-.yellow_font_color {
-	font-color: yellow;
-	color: yellow;
-}
-.arial_font{
-	font-family: arial;
+.margin_nav_items{
+	margin-right: 21px;
 }
 .container_header {
 	background-color: red;
@@ -41,7 +27,7 @@
 .text_modifier_links {
     position: absolute;
     top: 10px;
-    right: 81px;
+    right: 67px;
 }
 .container_search_bar {
     background-color: brown;
@@ -49,7 +35,7 @@
     height: 70px;
     position: absolute;
     top: 30px;
-    right: 24px;
+    right: 42px;
 }
 .search_bar {
     position: absolute;
@@ -60,12 +46,12 @@
     width: 200px;
 }
 button {
-	position: absolute;
-	top: 1px;
-	right: 1px;
-	width: 40px;
-	height: 40px;
-	background-color: #a71fd1;
+    position: absolute;
+    top: 14px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #a71fd1;
 }
 .container_search_bar_shadow {
     background-color: black;
@@ -73,13 +59,28 @@ button {
     height: 70px;
     position: absolute;
     top: 32px;
-    right: 21px;
+    right: 40px;
 }
-
 .container_header_nav {
-	background-color: purple;
-	width: 970px;
-	height: 55px;	
+/*    background-color: purple;
+*/    width: 970px;
+    height: 55px;
+    padding: 9px;
+}
+.container_bubble {
+    padding-top: 8px;
+    width: 100%;
+    background-color: #f759e7;
+}
+.container_bubble_shadow {
+	width: 100%;
+   	position: absolute;
+    top: 32px;
+    right: 40px;
+}
+ul {
+	padding-left: 21px;
+	margin-bottom: 9px;
 }
 .container_main {
 	background-color: orange;
@@ -95,4 +96,36 @@ button {
 	background-color: green;
 	width: 970px;
 	height: 150px;
+}
+.text_align {
+	text-align: center;
+}
+.border_radius {
+	border-radius: 9px
+}
+.white_font_color {
+	font-color: white;
+	color: white;
+}
+.inline_block {
+	display: inline-block;	
+}
+.fontsize_24 {
+	font-size: 173%;
+}
+.yellow_font_color {
+	font-color: yellow;
+	color: yellow;
+}
+.arial_font{
+	font-family: arial;
+}
+.box_sizing {
+	box-sizing: border-box;
+}
+.bg_color_black {
+	background-color: black;
+}
+.decor_none {
+	text-decoration:none;
 }
