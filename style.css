@@ -67,25 +67,38 @@ button {
     height: 55px;
     padding: 9px;
 }
+.container_bubble_shadow {
+    width: 100%;
+    position: absolute;
+    top: 32px;s
+    right: 40px;
+}
 .container_bubble {
     padding-top: 8px;
     width: 100%;
     background-color: #f759e7;
 }
-.container_bubble_shadow {
-	width: 100%;
-   	position: absolute;
-    top: 32px;
-    right: 40px;
+.ul_main_pain {
+    list-style-type: square;
+    position: relative;
+    top: 10px;
+    left: 97px;
+    color: yellow;
 }
-ul {
+.header_nav_list {
 	padding-left: 21px;
 	margin-bottom: 9px;
 }
 .container_main {
 	background-color: orange;
 	width: 970px;
-	height: 400px;	
+	height: 400px;
+    padding: 9px;	
+}
+.main_nav_pane {
+    background-color: black;
+    width: 300px;
+    height: 100%;
 }
 .container_supplements {
 	background-color: pink;
@@ -127,5 +140,8 @@ ul {
 	background-color: black;
 }
 .decor_none {
-	text-decoration:none;
+    text-decoration:none
+}
+.margin_6px {
+    margin: 6px;
 }
