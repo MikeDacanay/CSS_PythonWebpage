@@ -1,3 +1,35 @@
-*{
-	
+* {
+	margin: 0px;
+	padding: 0px;
+}
+.wrapper {
+	width: 970px;
+	height: auto;
+	box-sizing: border-box;
+	background-color: blue;
+}
+.container_header {
+	background-color: red;
+	width: 970px;
+	height: 150px;
+}
+.container_header_nav {
+	background-color: purple;
+	width: 970px;
+	height: 55px;	
+}
+.container_main {
+	background-color: orange;
+	width: 970px;
+	height: 400px;	
+}
+.container_supplements {
+	background-color: pink;
+	width: 970px;
+	height: 300px;	
+}
+.footer {
+	background-color: green;
+	width: 970px;
+	height: 150px;
 }
