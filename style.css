@@ -8,11 +8,74 @@
 	box-sizing: border-box;
 	background-color: blue;
 }
+.text_align {
+	text-align: center;
+}
+.border_radius {
+	border-radius: 9px
+}
+.white_font_color {
+	font-color: white;
+	color: white;
+}
+.yellow_font_color {
+	font-color: yellow;
+	color: yellow;
+}
+.arial_font{
+	font-family: arial;
+}
 .container_header {
 	background-color: red;
 	width: 970px;
 	height: 150px;
+	padding: 3px 5px 25px 35px;
+	box-sizing: border-box;
 }
+.img_python {
+    width: 55%;
+    height: 104%;
+    position: relative;
+    top: 11px;
+}
+.text_modifier_links {
+    position: absolute;
+    top: 10px;
+    right: 81px;
+}
+.container_search_bar {
+    background-color: brown;
+    width: 317px;
+    height: 70px;
+    position: absolute;
+    top: 30px;
+    right: 24px;
+}
+.search_bar {
+    position: absolute;
+    top: 10px;
+    right: 84px;
+    height: 1px;
+    height: 45px;
+    width: 200px;
+}
+button {
+	position: absolute;
+	top: 1px;
+	right: 1px;
+	width: 40px;
+	height: 40px;
+	background-color: #a71fd1;
+}
+.container_search_bar_shadow {
+    background-color: black;
+    width: 317px;
+    height: 70px;
+    position: absolute;
+    top: 32px;
+    right: 21px;
+}
+
 .container_header_nav {
 	background-color: purple;
 	width: 970px;
